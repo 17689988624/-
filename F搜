@@ -1,5 +1,6 @@
-【rewrite_local】
+[rewrite_local]
 # f搜
 ^https:\/\/duckduckgo.com\/\?q=([^&]+).+ url 302 https://fsoufsou.com/search?q=$1
-【mitm】
+
+[mitm]
 hostname = duckduckgo.com
