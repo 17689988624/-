@@ -1,0 +1,9 @@
+#!name=VidHu改ua
+#!desc=替换 bilibili.rip User-Agent 防止被和谐
+
+[Rewrite]
+http-request ^https?://bili.bili.rip(:\d+)?/V header-del User-Agent
+http-request ^https?://bili.bili.rip(:\d+)?/V header-add User-Agent "Emby"
+
+[MITM]
+hostname = %APPEND% bili.bili.rip
