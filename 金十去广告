@@ -1,0 +1,9 @@
+#!name=金十数据去广告
+
+
+
+
+[URL Rewrite]
+"^https?:\/\/jad-api\.jin10\.com\/ad" - reject
+[MITM]
+hostname = jad-api.jin10.com
