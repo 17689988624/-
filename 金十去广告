@@ -4,6 +4,6 @@
 
 
 [URL Rewrite]
-"^https?:\/\/jad-api\.jin10\.com\/ad" - reject
+^https?:\/\/jad-api\.jin10\.com\/ad - reject
 [MITM]
-hostname = %APPEND% jad-api.jin10.com
+hostname = jad-api.jin10.com
