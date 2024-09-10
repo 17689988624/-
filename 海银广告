@@ -5,4 +5,4 @@ DOMAIN, m-iot.erling.com.cn, REJECT
 # 使用reject-dict方法以减少开销
 ^http:\/\/m-iot\.erling\.com\.cn - reject
 [MitM]
-hostname = m-iot.erling.com.cn
+hostname = *.erling.com.cn, m-iot.erling.com.cn
