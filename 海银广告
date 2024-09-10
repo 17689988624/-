@@ -1,0 +1,8 @@
+#!name = 海银之家去广告
+[Rule]
+DOMAIN, m-iot.erling.com.cn, REJECT
+[Rewrite]
+# 使用reject-dict方法以减少开销
+^http:\/\/m-iot\.erling\.com\.cn - reject
+[MitM]
+hostname = *.erling.com.cn, m-iot.erling.com.cn
