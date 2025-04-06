@@ -1,7 +1,7 @@
 #!name=✈️智行去广告
 [Map Local]
 # > 智行 去开屏广告
-^https?:\/\/m\.ctrip\.com\/restapi\/soa2\/13916\/scjson\/tripAds url reject-200
+"^https?:\/\/m\.ctrip\.com\/restapi\/[\w\/]+tripAds" - reject
 
 [MITM]
 hostname = m.ctrip.com
