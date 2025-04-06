@@ -2,6 +2,9 @@
 [Map Local]
 # > 智行 去开屏广告
 "^https?:\/\/m\.ctrip\.com\/restapi\/[\w\/]+tripAds" - reject
-
+"^https?:\/\/m\.ctrip\.com\/restapi\/soa2\/[0-9]{5}\/json\/getTimeZoneServerIpList\?__gw_os=IOS" - reject
+"^https?:\/\/m\.ctrip\.com\/restapi\/soa2\/\d+\/json\/getAdsList" - reject
+"^https:\/\/m\.ctrip\.com\/restapi\/soa2\/13916\/tripAds" - reject
+"^https?:\/\/ma-adx\.ctrip\.com\/_ma\.gif" - reject
 [MITM]
-hostname = %APPEND% m.ctrip.com
+hostname = %APPEND% m.ctrip.com,ma-adx.ctrip.com
