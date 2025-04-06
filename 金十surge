@@ -1,4 +1,7 @@
 #!name=金十数据去广告
+
+#!author=zjy
+
 [URL Rewrite]
 "^https?:\/\/jad-api\.jin10\.com\/ad" - reject
 [MITM]
