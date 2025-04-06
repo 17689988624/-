@@ -6,5 +6,6 @@
 "^https?:\/\/m\.ctrip\.com\/restapi\/soa2\/\d+\/json\/getAdsList" - reject
 "^https:\/\/m\.ctrip\.com\/restapi\/soa2\/13916\/tripAds" - reject
 "^https?:\/\/ma-adx\.ctrip\.com\/_ma\.gif" - reject
+^https?:\/\/m\.ctrip\.com\/restapi\/[\w\/]+tripAds - reject
 [MITM]
 hostname = %APPEND% m.ctrip.com,ma-adx.ctrip.com
