@@ -4,4 +4,4 @@
 "^https?:\/\/m\.ctrip\.com\/restapi\/[\w\/]+tripAds" - reject
 
 [MITM]
-hostname = m.ctrip.com
+hostname = %APPEND% m.ctrip.com
