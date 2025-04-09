@@ -1,46 +1,10 @@
 #!name=美团去广告
 [General]
 force-http-engine-hosts = %APPEND% wmapi.meituan.com
-
 [URL Rewrite]
 "^https?:\/\/(s3plus|flowplus)\.meituan\.net\/v\d\/\w+\/linglong\/\w+\.(gif|jpg|mp4)" - reject
-
-"^https?:\/\/flowplus\.meituan\.net\/v\d\/\w+\/linglong\/\d+\.(gif|jpg|mp4)" - reject
-
-"^https?:\/\/img\.meituan\.net\/(adunion|display|dpmobile|midas)\/\w+\.(gif|jpg|jpg\.webp)$" - reject
-
-"^https?:\/\/p\d\.meituan\.net\/(bizad|wmbanner)\/\w+\.jpg" - reject
-"^https?:\/\/p\d\.meituan\.net\/movie\/\w+\.jpg\?may_covertWebp" - reject
-"^https?:\/\/wmapi\.meituan\.com\/api\/v\d\/startpicture" - reject
-
 [Map Local]
-
-data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.gif"
-"^https?:\/\/apimobile\.meituan\.com\/group\/v1\/recommend\/unity\/recommends" 
-
-data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/img\.meituan\.net\/bizad\/bizad_brandCpt_\d+\.jpg" 
-
-10
-
-data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/mall\.meituan\.com\/api\/c\/homepage\/bubble\/operate\/info" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank_dict.json"
-"^https?:\/\/mall\.meituan\.com\/api\/c\/homepage\/splash" 
-data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/p\d\.meituan\.net\/(bizad|wmbanner|brandCpt)\/\w+\.jpg" 
-data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/peisongapi\.meituan\.com\/client\/getInitiateImage" 
-
-data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/portal-portm\.meituan\.com\/horn_ios\/mergeRequest" 
-
-data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/s3plus\.meituan\.net\/.*\/brandcpt-vedio\/.*\?time" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
-"^https?:\/\/s3plus\.meituan\.net\/ocean-blk-index\/index\/blk_conf_73\.json" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank_dict.json"
-"^https?:\/\/s3plus\.meituan\.net\/v1\/mss_\w+\/(brandcpt-vedio|waimai-alita)\/\w+\.zip$" 
-
 data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank_dict.json"
-"^https?:\/\/wmapi\.meituan\.com\/api\/v\d\/(openscreen\?ad|loadInfo\?|startpicture)" 
-
+"^https?:\/\/s3plus\.meituan\.net\/v1\/mss_\w+\/(brandcpt-vedio|waimai-alita)\/\w+\.zip$" 
 [MITM]
-hostname = %APPEND% apimobile.meituan.com,flowplus.meituan.net ,img.meituan.net, mall.meituan.com, p*.meituan.net, peisongapi.meituan.com, portal-portm.meituan.com, s3plus.meituan.net, wmapi.meituan.com
+hostname = %APPEND% s3plus.meituan.net
