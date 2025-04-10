@@ -1,0 +1,10 @@
+# NAME: Emby分流
+# > Emby
+DOMAIN-SUFFIX,jingzhe.pro,Emby
+DOMAIN-KEYWORD,emby,DIRECT
+DOMAIN-SUFFIX,1024.name,Emby
+DOMAIN-SUFFIX,saturday.video,Emby
+DOMAIN-SUFFIX,emby.wtf,Emby
+DOMAIN-SUFFIX,yezi.my,Emby
+DOMAIN-SUFFIX,204cloud.com,Emby
+IP-CIDR,185.163.116.145/32,Emby,no-resolve
