@@ -4,4 +4,3 @@ DOMAIN-KEYWORD,icloud,DIRECT
 DOMAIN-SUFFIX,lyun.edu.cn,DIRECT // Added for: app.lyun.edu.cn:8099
 DOMAIN,ip-api.com,节点 // Added for: http://ip-api.com/json/?lang=zh-CN
 RULE-SET,SYSTEM,DIRECT,no-resolve
-GEOIP,CN,DIRECT
