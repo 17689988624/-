@@ -1,0 +1,8 @@
+#!name=招商银行ad surge
+
+
+[Map Local]
+"^https?:\/\/webappcfg\.paas\.cmbchina\.com\/v1\/func\/getmarketconfig" data="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/blank/blank.txt"
+
+[MITM]
+hostname = %APPEND% webappcfg.paas.cmbchina.com
