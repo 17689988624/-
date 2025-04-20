@@ -1,6 +1,7 @@
 # NAME: IP
 # 抖音修改IP
 DOMAIN-SUFFIX,amemv.com,IP
+DOMAIN-SUFFIX,douyinvod.com,IP
 
 # 快手修改IP
 DOMAIN-SUFFIX,gifshow.com,IP
