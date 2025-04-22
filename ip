@@ -2,7 +2,7 @@
 # 抖音修改IP
 DOMAIN-SUFFIX,api-hl.amemv.com,IP
 DOMAIN,douyinvod.com,IP
-DOMAIN-SUFFIX,api5-normal-ipv6-lq.amemv.com,IP
+
 # 快手修改IP
 DOMAIN-SUFFIX,gifshow.com,IP
 DOMAIN-SUFFIX,apissl.ksapisrv.com,IP
