@@ -1,7 +1,6 @@
 # NAME: IP
 # 抖音修改IP
-DOMAIN,api5-normal-ipv6-lq.amemv.com,IP
-DOMAIN,api-hl.amemv.com,IP
+DOMAIN-SUFFIX,amemv.com,IP
 DOMAIN-SUFFIX,douyinvod.com,IP
 
 # 快手修改IP
