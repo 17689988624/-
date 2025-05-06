@@ -1,0 +1,5 @@
+#!name=华尔街见闻
+[URL Rewrite]
+^https?:\/\/api-one-wscn\.awtmt\.com\/apiv\d\/advertising\/ads - reject
+[MITM]
+hostname = %APPEND% api-one-wscn.awtmt.com
