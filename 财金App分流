@@ -23,3 +23,5 @@ DOMAIN-SUFFIX,appsflyersdk.com,DIRECT,no-resolve
 DOMAIN-KEYWORD,ibkr,DIRECT,no-resolve
 DOMAIN-SUFFIX,interactivebrokers.com,DIRECT,no-resolve
 DOMAIN-SUFFIX,ibllc.com,DIRECT,no-resolve
+DOMAIN,logx.optimizely.com,DIRECT,no-resolve
+DOMAIN,tags.tiqcdn.com,DIRECT,no-resolve
