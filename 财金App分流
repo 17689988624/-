@@ -21,3 +21,5 @@ DOMAIN-KEYWORD,hsbc,DIRECT
 IP-CIDR,43.132.106.6/32,DIRECT,no-resolve
 DOMAIN-SUFFIX,appsflyersdk.com,DIRECT,no-resolve
 DOMAIN-KEYWORD,ibkr,DIRECT,no-resolve
+DOMAIN-SUFFIX,interactivebrokers.com,DIRECT,no-resolve
+DOMAIN-SUFFIX,ibllc.com,DIRECT,no-resolve
