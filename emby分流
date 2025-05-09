@@ -11,3 +11,8 @@ IP-CIDR,185.163.116.145/32,Emby,no-resolve
 DOMAIN-SUFFIX,1l1.icu,Emby
 DOMAIN-SUFFIX,1024.one,Emby
 DOMAIN-SUFFIX,term.wtf,Emby
+IP-CIDR,185.148.13.104/32,Emby,no-resolve
+IP-CIDR,185.148.13.13/32,Emby,no-resolve
+IP-CIDR,148.135.94.8/32,Emby,no-resolve
+IP-CIDR,103.197.185.84/32,Emby,no-resolve
+IP-CIDR,120.197.56.190/32,Emby,no-resolve
