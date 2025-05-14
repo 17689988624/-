@@ -1,8 +1,7 @@
-#!name=金十数据去广告
 
-#!author=zjy
+[rewrite_local]
+# > 金十数据
+hostname = jad-api.jin10.com
+# 开屏广告和应用内弹窗
+^https?:\/\/jad-api\.jin10\.com\/ad url reject
 
-[URL Rewrite]
-"^https?:\/\/jad-api\.jin10\.com\/ad" - reject
-[MITM]
-hostname = %APPEND% jad-api.jin10.com
