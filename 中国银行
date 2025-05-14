@@ -1,0 +1,6 @@
+#!name = 中国银行
+[Rewrite]&[Script]
+# > 中国银行
+# hostname = mlife.jf365.boc.cn
+# > 中国银行 缤纷生活
+^https?:\/\/mlife\.jf365\.boc\.cn\/AppPrj\/FirstPic\.do\?txnId=2PIC000001 reject-200
