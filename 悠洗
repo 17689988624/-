@@ -1,7 +1,7 @@
 
 [Rewrite]&[Script]
 # > 悠洗APP
-# hostname = api.ulife.group
+hostname = api.ulife.group
 # 净化 感谢【TEXAS】分享
 ^https?:\/\/api\.ulife\.group\/signintask\/adServing reject-dict
 ^https?:\/\/api\.ulife\.group\/auth\/account\/getUpgradeStrategy reject-dict
