@@ -1,4 +1,4 @@
-
+#!name=金十数据
 [rewrite_local]
 # > 金十数据
 hostname = jad-api.jin10.com
