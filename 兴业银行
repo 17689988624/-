@@ -1,0 +1,4 @@
+#!name = 兴业银行
+# > 兴业银行
+# hostname = file.cibfintech.com
+^https?:\/\/file\.cibfintech\.com\/file\/M0[1-9]{1}\/*\/*\/.*.zip reject-img
