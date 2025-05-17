@@ -16,3 +16,4 @@ IP-CIDR,185.148.13.13/32,Emby,no-resolve
 IP-CIDR,148.135.94.8/32,Emby,no-resolve
 IP-CIDR,103.197.185.84/32,Emby,no-resolve
 IP-CIDR,120.197.56.190/32,Emby,no-resolve
+DOMAIN-SUFFIX,atto.moe,Emby
