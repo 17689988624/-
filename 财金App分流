@@ -9,7 +9,6 @@ DOMAIN-SUFFIX,futuhn.com,DIRECT // Added for: collect.futuhn.com:443
 IP-CIDR,124.156.124.214/32,DIRECT,no-resolve // Added for: 124.156.124.214:443
 IP-CIDR,43.153.233.212/32,DIRECT,no-resolve // Added for: 43.153.233.212:443
 IP-CIDR,119.28.37.206/32,DIRECT,no-resolve
-DOMAIN-SUFFIX,bochk.com,DIRECT // Added for: ewa.bochk.com:443
 DOMAIN-SUFFIX,lbkrs.com,DIRECT // Added for: event.lbkrs.com:443
 DOMAIN,bank-sbsmarket.zafinsvc.com,DIRECT // Added for: bank-sbsmarket.zafinsvc.com:443
 DOMAIN,mobile.eum-appdynamics.com,DIRECT // Added for: mobile.eum-appdynamics.com:443
@@ -17,7 +16,6 @@ DOMAIN-SUFFIX,we-stats.com,DIRECT // Added for: log-58144bf0.we-stats.com:443
 DOMAIN,accdn-vip.lpsnmedia.net,DIRECT // Added for: accdn-vip.lpsnmedia.net:443
 DOMAIN-SUFFIX,za.group,DIRECT
 DOMAIN-SUFFIX,zajourney.com,DIRECT
-DOMAIN-KEYWORD,hsbc,DIRECT
 IP-CIDR,43.132.106.6/32,DIRECT,no-resolve
 DOMAIN-SUFFIX,appsflyersdk.com,DIRECT,no-resolve
 DOMAIN-KEYWORD,ibkr,DIRECT,no-resolve
