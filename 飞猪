@@ -1,0 +1,8 @@
+
+#!name=飞猪阿里去广告
+#!desc=
+hostname = acs.m.taobao.com, gw.alicdn.com
+^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.fliggy\.crm\.screen\.(allresource|predict) reject-dict
+^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.trip\.activity\.querytmsresources\/1\.0\?type=originaljson reject-img
+^https?:\/\/gw\.alicdn\.com\/mt\/ reject
+^https?:\/\/gw\.alicdn\.com\/imgextra\/\w{2}\/[\w!]+-\d-tps-\d{3}-\d{4}\.(jpg|png)$ reject
