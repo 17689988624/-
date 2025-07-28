@@ -1,0 +1,17 @@
+=====Loon本地规则和脚本=====
+[Rewrite]&[Script]
+# > 中国电信
+# hostname = cloud.189.cn, zt-app.go189.cn
+^https?:\/\/cloud\.189\.cn\/include\/splash\/ reject
+^https?:\/\/zt-app\.go189\.cn\/zt-app\/welcome\/.*?Animation reject-img
+
+
+=====Loon本地规则=====
+[Rule]
+# > 中国电信
+DOMAIN, ad.21cn.com
+DOMAIN, ad.k.21cn.com
+DOMAIN, admarket.21cn.com
+DOMAIN, adshows.21cn.com
+IP-CIDR, 122.229.8.47/32, no-resolve
+IP-CIDR, 122.229.29.89/32, no-resolve
