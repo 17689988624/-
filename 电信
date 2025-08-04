@@ -9,12 +9,12 @@ hostname = cloud.189.cn, zt-app.go189.cn
 =====Loon本地规则=====
 [Rule]
 # > 中国电信
-DOMAIN, ad.21cn.com
-DOMAIN, ad.k.21cn.com
-DOMAIN, admarket.21cn.com
-DOMAIN, adshows.21cn.com
-IP-CIDR, 122.229.8.47/32, no-resolve
-IP-CIDR, 122.229.29.89/32, no-resolve
+DOMAIN, ad.21cn.com,REJECT
+DOMAIN, ad.k.21cn.com,REJECT
+DOMAIN, admarket.21cn.com,REJECT
+DOMAIN, adshows.21cn.com,REJECT
+IP-CIDR, 122.229.8.47/32,REJECT,no-resolve
+IP-CIDR, 122.229.29.89/32,REJECT,no-resolve
 
 =====Loon本地规则和脚本=====
 [Rewrite]&[Script]
@@ -31,7 +31,7 @@ hostname = m.client.10010.com, m1.ad.10010.com, res.mall.10010.cn
 =====Loon本地规则=====
 [Rule]
 # > 中国联通
-DOMAIN-SUFFIX,m1.ad.10010.com
+DOMAIN-SUFFIX,m1.ad.10010.com,REJECT
 
 
 
@@ -56,7 +56,7 @@ hostname = mcmm.caiyun.feixin.10086.cn, mrp.mcloud.139.com, ad.mcloud.139.com, m
 =====Loon本地规则=====
 [Rule]
 # > 中国移动
-IP-CIDR, 120.240.95.37/32, no-resolve
+IP-CIDR, 120.240.95.37/32, REJECT,no-resolve
 
 
 
