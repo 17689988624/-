@@ -1,3 +1,3 @@
 ^https:\/\/api\.miaoxiaole\.com\/book\/user\/checkSearchEntrance url jsonjq-response-body ".result=true"
-【MITM】
+[MITM]
 hostname=api.miaoxiaole.com
