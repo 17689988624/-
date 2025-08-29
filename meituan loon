@@ -1,6 +1,6 @@
 [Rewrite]&[Script]
 # > 美团 & 美团外卖
-# hostname = img.meituan.net, s3plus.meituan.net, flowplus.meituan.net
+hostname = img.meituan.net, s3plus.meituan.net, flowplus.meituan.net
 ^https?:\/\/wmapi\.meituan\.com\/api\/v7\/(loadInfo|openscreen|startpicture)\? reject-dict
 ^https?:\/\/(s3plus|flowplus)\.meituan\.net\/v\d\/\w+\/linglong\/\w+\.(gif|jpg|mp4) reject-img
 ^https?:\/\/img\.meituan\.net\/bizad\/bizad_brandCpt_\d+\.jpg reject-img
@@ -12,11 +12,11 @@
 ^https?:\/\/apimobile\.meituan\.com\/group\/v1\/recommend\/unity\/recommends reject-dict
 
 # > 美团众包
-# hostname = peisongapi.meituan.com
+hostname = peisongapi.meituan.com
 ^https?:\/\/peisongapi\.meituan\.com\/client\/getInitiateImage reject-200
 
 # > 美团充电宝小程序
-# hostname = cdb.meituan.com
+hostname = cdb.meituan.com
 ^https?:\/\/cdb\.meituan\.com\/marketing\/source\/getPageSlotList reject-dict
 
 
