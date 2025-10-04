@@ -4,4 +4,4 @@
 http-response-jq ^https:\/\/www\.douyin\.com\/aweme\/v1\/web\/tab\/feed\/\? 'if has("aweme_list") then .aweme_list |= map(select(.is_ads != true)) else . end'
 
 [MITM]
-hostname = 
+hostname = www.douyin.com
