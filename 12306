@@ -9,9 +9,6 @@
 [Rule]
 DOMAIN, ad.12306.cn, DIRECT
 
-[Rewrite]
-^https:\/\/ad\.12306\.cn\/ad\/ser\/getAdList$ response-body-json-del materialsList advertParam
-
 [Script]
 # 移除12306启动页广告
 # 拦截广告请求并返回干净的数据
